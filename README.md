@@ -27,7 +27,10 @@
 
 ### 步骤 1: 克隆仓库
 
-首先，打开终端，使用`git`克隆本项目到您选择的任意位置（例如，`/opt/`目录是一个不错的选择，用于存放第三方工具）。
+首先，打开终端，使用`git`克隆本项目到您选择的任意位置（例如，`/opt/`目录是一个不错的选择，用于存放第三方工具）。建议在`/opt`目录克隆，不然会有下面报错
+```
+[-] Failed to load plugin from /opt/metasploit-framework/embedded/framework/plugins/ace: cannot load such file -- /opt/metasploit-framework/embedded/framework/plugins/ace
+```
 
 ```bash
 git clone https://github.com/ADA-XiaoYao/metasploit-framework-ACE.git /opt/metasploit-framework-ACE
